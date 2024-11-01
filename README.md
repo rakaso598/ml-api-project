@@ -15,8 +15,7 @@ TensorFlow.js와 Python을 이용하여 머신러닝 모델을 구축하고, 이
 - TensorFlow.js를 사용하여 웹 페이지에서 이미지 분류 기능을 제공하는 인터페이스를 개발합니다.
 - 사용자가 이미지를 업로드하면 모델이 이를 분류해주는 기능을 구현합니다.
 ---
-## numpy의 np.object 사용이 deprecated(사용 중지)
-(2024-11-01)
+## (2024-11-01) numpy의 np.object 사용이 deprecated
 1. TensorFlow.js 업데이트 확인
 2. NumPy 다운그레이드
 3. TensorFlow.js 소스 코드 수정 (np.object)
