@@ -1,2 +1,39 @@
-node_modules/
+# 환경 변수 파일 제외
 .env
+
+# Python 가상 환경 폴더 제외
+venv/
+.Venv/
+env/
+.Env/
+ENV/
+.ENV/
+
+# Python 빌드 파일 제외
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook 체크포인트 제외
+.ipynb_checkpoints
+
+# 데이터셋, 모델 파일, 캐시, 기타 용량 큰 파일 제외
+*.h5
+*.ckpt
+*.tar.gz
+*.zip
+*.tar
+*.npz
+*.npy
+dataset/
+cifar10_model/
+cache/
+
+# 운영체제에서 생성한 임시 파일 제외
+.DS_Store
+Thumbs.db
+
+# 기타 IDE 관련 파일 제외
+.vscode/
+.idea/
